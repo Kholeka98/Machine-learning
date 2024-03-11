@@ -1,1 +1,1 @@
-# Machine-learning
+# Machine Learning: Finding Optimal Model and Hyperparameters¶
