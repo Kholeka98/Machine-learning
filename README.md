@@ -22,6 +22,7 @@ In the initial data understanding step, we performed the following tasks:
  As part of preparing our dataset, we executed the following tasks:
  - Printed and dropped rows with null values.
  - Identified and removed duplicates rows.
+ - Removed Outlier using the mean and standad deviation.
 
   ### Data Pre-Processing
   - Extracted only numeric values of the mileage, engine, and maximum power columns.
@@ -32,7 +33,15 @@ In the initial data understanding step, we performed the following tasks:
 - Manually changed binary categorical data to numeric.
 
 ### Data Visualizations
+We utilized data visualization to understand the relationship between each feature and the feature we want to predict.
 
-2. The scatterplot revealed no explicit relationship between the price of products and the number of products sold over different locations.
-   
-3. It was inferred that overall, skincare generates the highest revenue, accounting for 41.83 % of the total revenue.
+### Model Building
+- Splitted the dataset into train and test using the train_test_split module.
+- The Grid search module was employed across various algorithms using different parameters to identify the optimal model.
+
+### Results
+- The linear regression accuracy was 64%.
+- The random forest regressor was 89%.
+- When employing K-fold cross-validation on our Linear Regression, we achieved validation scores ranging from 57% to 64%.
+- When employing K-fold cross-validation on our Random Forest, we achieved validation scores ranging from 87% to 91%.
+- 
