@@ -40,8 +40,10 @@ We utilized data visualization to understand the relationship between each featu
 - The Grid search module was employed across various algorithms using different parameters to identify the optimal model.
 
 ### Results
-- The linear regression accuracy was 64%.
-- The random forest regressor was 89%.
+- The Linear Regression accuracy was 64%.
+- The Random Forest Regressor was 89%.
 - When employing K-fold cross-validation on our Linear Regression, we achieved validation scores ranging from 57% to 64%.
 - When employing K-fold cross-validation on our Random Forest, we achieved validation scores ranging from 87% to 91%.
-- 
+- The grid search identified the decision tree as the best model, with the following parameters:
+ -Criterion: Mean Square Error
+ -Splitter: Best Split
