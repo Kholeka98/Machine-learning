@@ -45,5 +45,5 @@ We utilized data visualization to understand the relationship between each featu
 - When employing K-fold cross-validation on our Linear Regression, we achieved validation scores ranging from 57% to 64%.
 - When employing K-fold cross-validation on our Random Forest, we achieved validation scores ranging from 87% to 91%.
 - The grid search identified the decision tree as the best model, with the following parameters:
- -Criterion: Mean Square Error
- -Splitter: Best Split
+  1.Criterion: Mean Square Error  
+  2. Splitter: Best Split
